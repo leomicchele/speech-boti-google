@@ -21,7 +21,7 @@ Pruebas para Boti
     
 ## Optimizations
 
-La url de los audios que estaN alojado en el Storage de Google, debe modificarse antes de llamar a la Api de Cloud, ej:
+La url de los audios, que estan alojados en el Storage de Google, debe modificarse antes de llamar a la Api de Cloud, ej:
 
 - URL Original: "https://storage.googleapis.com/m-infra.appspot.com/xxxxxxxxxxxxxxxxxxxx.ogg"
 - URL modificada: "gs://m-infra.appspot.com/xxxxxxxxxxxxxxxxxxxx.ogg"
